@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(Accept Header(Default)).contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(Accept Header(Default)).contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(Query String Parameter), 반환 타입 Collection 아니게 변환.contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(Query String Parameter), 반환 타입 Collection 아니게 변환.contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(반환 타입 result, insert, delete 등 성공 여부 return).contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JSON,XML 형식 제공(반환 타입 result, insert, delete 등 성공 여부 return).contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application property로 설정.contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/application property로 설정.contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/multicampus.iml" filepath="$PROJECT_DIR$/.idea/multicampus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/연락처 REST(@Mapper).contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/연락처 REST(@Mapper).contact.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/연락처 REST(sqlSession).contact.main.iml" filepath="$PROJECT_DIR$/.idea/modules/연락처 REST(sqlSession).contact.main.iml" />
+    </modules>
+  </component>
+</project>

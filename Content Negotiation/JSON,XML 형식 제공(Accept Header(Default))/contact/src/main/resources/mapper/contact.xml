@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.s1.contact.dao.ContactMapper">
+    <select id="findAll">
+        SELECT contact_id, name, phone_number, address
+        FROM contact
+        ORDER BY contact_id DESC
+    </select>
+    <select id="findById" parameterType="long" resultType="Contact">
+        SELECT contact_id, name, phone_number, address
+        FROM contact WHERE contact_id=#{contactId}
+    </select>
+    <insert id="save" parameterType="Contact"
+            useGeneratedKeys="true" keyProperty="contactId">
+        INSERT INTO contact (name, phone_number, address)
+        VALUES (#{name}, #{phoneNumber}, #{address})
+    </insert>
+</mapper>
