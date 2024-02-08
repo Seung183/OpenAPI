@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Api 연동 확인</title>
+</head>
+<body>
+<div th:object="${apiKeyInfo}">
+    <p>Host Name : <span th:text="*{hostName}"></span></p>
+</div>
+</body>
+</html>

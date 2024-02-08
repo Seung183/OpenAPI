@@ -33,7 +33,6 @@ public class ApiKeyProcessor {
         return newApiKey;
     }
 
-
     public String requestNewApiKey(ApiKey apiKey){
         String newApiKey = DigestUtils.md5DigestAsHex(UUID.randomUUID().toString().getBytes());
         apiKey.setApiKey(newApiKey);
